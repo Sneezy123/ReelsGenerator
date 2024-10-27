@@ -9,13 +9,14 @@
 from generate_script import return_script
 from generate_voiceover import save_file_voiceover
 from generate_srt_file import generate_srt
+from put_clips_together import write_video
 
 
 
 if __name__ == "__main__":
-    prompt: str
+    """ prompt: str
 
-    with open("./prompt.txt", "r") as f:
+    with open("./input/prompt.txt", "r") as f:
         prompt = f.read()
         print("Prompt read.")
 
@@ -28,4 +29,6 @@ if __name__ == "__main__":
     #print("Voiceover generated.")
     
     generate_srt(audio_file_path="output/eb85ca1e-84b8-45af-af76-5b782a8946a2.mp3", output_file_path="output/subtitle.srt")
-    print("Subtitles generated.")
+    print("Subtitles generated.") """
+
+    write_video("./input/clips", "./output/subtitle.srt", "./input/Background Music", "output/eb85ca1e-84b8-45af-af76-5b782a8946a2.mp3", "output/video-subs_audio.mp4", "Staatliches-Regular", 120, "white", "black", 4, False, 11, 12, 5)
