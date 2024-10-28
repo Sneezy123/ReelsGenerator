@@ -1,8 +1,0 @@
-g4f
-openai-whisper
-numpy
-elevenlabs
-python-dotenv
-moviepy
-opencv-python
-pydub
