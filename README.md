@@ -35,7 +35,7 @@ or with Python 3
 pip3 install -r requirements.txt
 ```
 
-put your API key into the `.env` file so that everything works
+put your API key into the `.env` file (rename `.env.example` to `.env`) so that everything works
 
 # Usage
 You can start now!
